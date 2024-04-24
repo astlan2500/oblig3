@@ -1,4 +1,4 @@
-package com.example.oblig3_ferdig;
+package data1700oblig3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
