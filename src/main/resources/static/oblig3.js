@@ -26,7 +26,7 @@ function kjopBillett(){
     }
     let feil = false;
 
-    // Nullstill alle feilmeldinger
+    // Nullstiller feilmeldingene
     $("span[id^='feil']").text("");
 
     // Validering
@@ -50,7 +50,7 @@ function kjopBillett(){
         feil = true;
     }
     if (!validerTelefonNr(billett.telefonNr)) {
-        $("#feilTelefonNr").text("skriv inn et gylding telefon nummer.");
+        $("#feilTelefonNr").text("skriv inn et gylding telefonnummer.");
         feil = true;
     }
 
@@ -60,15 +60,15 @@ function kjopBillett(){
     }
 
     if (feil) {
-        return; // Avslutt funksjonen hvis det er feil
+        return; // feil
     }
 
-    // Send billettdata til serveren
+    // Send billett til serveren
     $.post("lagre", billett, function (){
         hentAlle();
     });
 
-    // Nullstill inputfeltene
+    // Nullstill
     $("#filmNavn").val("Velg Film: ");
     $("#antallBilletter").val("");
     $("#fornavn").val("");
