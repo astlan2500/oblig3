@@ -10,5 +10,5 @@ Link til videogjennomgang: https://youtu.be/W3bT4KZx1ik
 
 Kort beskrivelse:
 
-En enkel nettside hvor du kan kjøpe, endre, og slette kinobilletter. Kinobillettene blir lagret i en database. Hvis du skriver inn feilinformasjon, vil det poppe opp feilmeldinger.
+En enkel nettside hvor du kan kjøpe, endre, og slette kinobilletter. Kinobillettene blir lagret i en database. Hvis du skriver inn feilinformasjon, får brukeren vasling om eventuelle feil.
 
